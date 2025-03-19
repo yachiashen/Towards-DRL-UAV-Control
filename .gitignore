@@ -1,0 +1,14 @@
+# macOS system files
+.DS_Store
+
+# Simulink/MATLAB files
+*.asv
+*.bak
+*.log
+*.mat
+*.mex*
+*.slxc
+*.mdl.autosave
+slprj/
+*.sim
+*.mlappinstall
