@@ -1,7 +1,10 @@
 # macOS system files
 .DS_Store
 
-# Simulink/MATLAB files
+# VSCode
+.vscode/
+
+# MATLAB / Simulink files
 *.asv
 *.bak
 *.log
@@ -9,6 +12,40 @@
 *.mex*
 *.slxc
 *.mdl.autosave
-slprj/
-*.sim
+*.slx.autosave
+*.fig
+*.pbtxml
+*.p
+*.mlapp
 *.mlappinstall
+*.mexa64
+*.mexw64
+*.mexmaci64
+*.sldd
+*.sfx
+*.svproj
+*.mdlp
+*.slxp
+*.sim
+*.rpt
+*.c
+*.h
+*.tlc
+*.xml
+*.mk
+*.exe
+
+# Simulink generated folders
+slprj/
+sfunctions/
+_simulinkcache/
+
+# Other temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# Image files
+*.jpg
